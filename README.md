@@ -57,7 +57,7 @@ Run the tests locally:
 python3 -m pytest -v
 ```
 
-##Run Locally
+## Run Locally
 Clone the repository:
 ```
 git clone https://github.com/Mahesh-CSH/BlackVault-Security-Assessment.git
@@ -81,14 +81,14 @@ Health endpoint:
 ```text
 http://127.0.0.1:5000/health
 ```
-##Project Documentation
+## Project Documentation
 
 - docs/security-assessment.md – Assessment scope, observations,
   recommendations, and test results.
 - docs/access-control-tests.md – Access control test cases.
 - docs/test-results.txt – Automated test evidence.
 
-##Security Recommendations
+## Security Recommendations
 
 - Implement authentication and authorization.
 - Enforce document ownership on protected endpoints.
@@ -98,7 +98,7 @@ http://127.0.0.1:5000/health
 - Use HTTPS in production.
 - Keep application dependencies updated.
 
-##Scope and Limitations
+## Scope and Limitations
 
 This project is a local web application security assessment lab.
 The results apply only to the tested scenarios and do not establish
@@ -107,5 +107,5 @@ or suitable for production deployment.
 
 All testing should be performed in authorized environments.
 
-###Author
+### Author
 Mahesh

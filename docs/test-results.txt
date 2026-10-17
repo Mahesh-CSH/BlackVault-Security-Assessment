@@ -1,0 +1,17 @@
+============================= test session starts ==============================
+platform linux -- Python 3.14.7, pytest-9.1.1, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/kali/blackvault
+plugins: typeguard-4.4.4, anyio-4.12.1
+collecting ... collected 8 items
+
+tests/test_app.py::test_health_check PASSED                              [ 12%]
+tests/test_app.py::test_public_document_access PASSED                    [ 25%]
+tests/test_app.py::test_internal_document_access_denied PASSED           [ 37%]
+tests/test_app.py::test_nonexistent_document PASSED                      [ 50%]
+tests/test_app.py::test_search_returns_public_documents PASSED           [ 62%]
+tests/test_app.py::test_search_does_not_expose_internal_audit PASSED     [ 75%]
+tests/test_app.py::test_security_headers PASSED                          [ 87%]
+tests/test_app.py::test_health_security_headers PASSED                   [100%]
+
+============================== 8 passed in 0.09s ===============================

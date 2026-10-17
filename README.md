@@ -1,72 +1,3 @@
-
-# BlackVault – Web Application Security Assessment Lab
-
-A Flask-based corporate document management portal built for
-hands-on web application security testing, access control
-validation, and automated security regression testing.
-
-## Project Overview
-
-BlackVault is a local security assessment lab designed to evaluate
-document access controls, search functionality, HTTP security
-headers, and error handling.
-
-## Key Features
-
-- Document search and retrieval
-- Public and restricted document access controls
-- HTTP security header verification
-- Health-check endpoint testing
-- Automated security regression testing with Pytest
-- Security assessment documentation
-
-## Technology Stack
-
-- Python 3
-- Flask
-- Pytest
-- Kali Linux
-- Git and GitHub
-- cURL
-
-## Security Testing
-
-The assessment covers the following areas:
-
-# BlackVault – Web Application Security Assessment Lab
-
-A Flask-based corporate document management portal built for
-hands-on web application security testing, access control
-validation, and automated security regression testing.
-
-## Project Overview
-
-BlackVault is a local security assessment lab designed to evaluate
-document access controls, search functionality, HTTP security
-headers, and error handling.
-
-## Key Features
-
-- Document search and retrieval
-- Public and restricted document access controls
-- HTTP security header verification
-- Health-check endpoint testing
-- Automated security regression testing with Pytest
-- Security assessment documentation
-
-## Technology Stack
-
-- Python 3
-- Flask
-- Pytest
-- Kali Linux
-- Git and GitHub
-- cURL
-
-## Security Testing
-
-The assessment covers the following areas:
-
 # BlackVault – Web Application Security Assessment Lab
 
 A Flask-based corporate document management portal built for
@@ -112,32 +43,6 @@ The assessment covers the following areas:
 | HTTP security headers | Headers verified on main page |
 | Health endpoint headers | Headers verified |
 
-## Test Results
-
-Latest local regression test results:
-
-- Total tests: 8
-- Passed: 8
-- Failed: 0
-
-Run the tests locally:
-
-```bash
-python3 -m pytest -v
-```
-## Test Results
-
-Latest local regression test results:
-
-- Total tests: 8
-- Passed: 8
-- Failed: 0
-
-Run the tests locally:
-
-```bash
-python3 -m pytest -v
-```
 ## Test Results
 
 Latest local regression test results:
